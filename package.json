@@ -30,7 +30,7 @@
     "@shopify/polaris": "^12.0.0",
     "@shopify/shopify-api": "^8.0.2",
     "@shopify/shopify-app-remix": "experimental",
-    "@shopify/shopify-app-session-storage-prisma": "^2.0.0",
+    "@shopify/shopify-app-session-storage-prisma": "2.0.0",
     "isbot": "^4.1.0",
     "prisma": "^4.13.0",
     "react": "^18.2.0",
@@ -48,6 +48,11 @@
     "eslint-config-prettier": "^8.8.0",
     "prettier": "^2.8.8",
     "typescript": "^5.2.2"
+  },
+  "resolutions": {
+    "@shopify/shopify-app-session-storage": "2.0.0",
+    "@shopify/shopify-app-session-storage-prisma": "2.0.0",
+    "@shopify/shopify-api": "8.1.1"
   },
   "workspaces": {
     "packages": [
